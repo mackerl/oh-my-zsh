@@ -67,7 +67,7 @@ if [ ${ZSH_VERSION//\./} -ge 420 ]; then
   _editor_fts=(cpp cxx cc c hh h inl asc txt TXT tex)
   for ft in $_editor_fts ; do alias -s $ft=$EDITOR ; done
 
-  _image_fts=(jpg jpeg png gif mng tiff tif xpm)
+  _image_fts=(bmp jpg jpeg png gif mng tiff tif xpm)
   for ft in $_image_fts ; do alias -s $ft=$XIVIEWER; done
 
   _media_fts=(ape avi flv mkv mov mp3 mpeg mpg ogg ogm rm wav webm)
